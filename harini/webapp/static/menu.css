@@ -1,0 +1,65 @@
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.nav{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 15px;
+    background-color: blue;
+    color: WHITE;
+    font-size: 16px;
+}
+
+
+.menu{
+    position:absolute;
+    top: 100px;
+    text-align: center;
+    left: 700px;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+
+
+.container{
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.list{
+    background-color: brown;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.list img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black; 
+    color:white; 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif; 
+    padding: 10px;
+}

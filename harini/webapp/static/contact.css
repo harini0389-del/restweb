@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    background-image: url("Contact.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.nav{
+    position: absolute;
+    top: 10px;
+    right: 300x;
+    
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.nav{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 15px;
+    background-color: blue;
+    color: rgb(218, 194, 194);
+    font-size: 20px;
+}
+
+.contact {
+    padding: 5px 40px;
+}
+
+.contact h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    
+}
+
+.details h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    color: black;
+}
+
+.details p {
+    font-size: 30px;
+    line-height: 1;
+    margin-top: 2px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color:white;
+    padding:10px;
+    bottom: 0;
+    width: 100%;
+    position:fixed;
+    
+}
